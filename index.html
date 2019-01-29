@@ -28,19 +28,51 @@
               <label for="new-phone-number">Phone Number</label>
               <input type="text"  class="form-control" id="new-phone-number">
             </div>
-            <button type="submit" class="btn-primary">Add</button>
-          </form>
-          <hr>
-          <h2>Contacts:</h2>
-          <ul id="contacts">
-          </ul>
-        </div>
-        <div class="col-md-6">
-          <div id="show-contact">
-            <p>First Name: <span class="first-name"></span></p>
-            <p>Last Name: <span class="last-name"></span></p>
-            <p>Phone Number: <span class="phone-number"></span></p>
-            <div id="buttons">
+            <div class="form-group">
+              <label for="new-email-address">Email Address</label>
+              <input type="text"  class="form-control" id="new-email-address">
+            </div>
+            <div class="form-group">
+              <label for="new-address">Address</label>
+              <input type="text" class="form-control" id="new-address" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+              <label for="new-address2">Address 2</label>
+              <input type="text" class="form-control" id="new-address2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="input-city">City</label>
+                <input type="text" class="form-control" id="input-city">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="input-state">State</label>
+                <input id="input-state" class="form-control">
+              </input>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="input-zip">Zip</label>
+                <input type="text" class="form-control" id="input-zip">
+              </div>
+              <button type="submit" class="btn-primary">Add</button>
+            </form>
+              <hr>
+              <h2>Contacts:</h2>
+              <ul id="contacts">
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <div id="show-contact">
+                <p>First Name: <span class="first-name"></span></p>
+                <p>Last Name: <span class="last-name"></span></p>
+                <p>Phone Number: <span class="phone-number"></span></p>
+                <p>Email Address: <span class="email-address"></span></p>
+                <p>Address: <span class="address"></span></p>
+                <p>Address2: <span class="address2"></span></p>
+                <p>City: <span class="city"></span></p>
+                <p>State: <span class="state"></span></p>
+                <p>Zip: <span class="zip"></span></p>
+              <div id="buttons">
             </div>
           </div>
         </div>
